@@ -2,8 +2,8 @@
 :root {
   --primary-color: #331f19;
   --secondary-color: #2c3e50;
-  --accent-color: #ccd595;
-  --light-color: #ccd595;
+  --accent-color:  #ccd595;
+  --light-color:
   --dark-color: #2c3e50;
 }
 
@@ -444,7 +444,7 @@ summary {
 }
 
 input {
-  background-color: #f1f2ec;
+  background-color: #331f19;
   border: border;
   padding: 0.8rem;
   color: #ccd595;
