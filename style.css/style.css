@@ -23,7 +23,7 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var();
 }
 
 .btn {
@@ -38,7 +38,7 @@ a {
 }
 
 .btn:hover {
-  background: var(--secondary-color);
+  background: var();
   transform: translateY(-3px);
 }
 
@@ -102,9 +102,10 @@ nav {
   font-weight: 500;
   transition: color 0.3s;
 }
-
+/* Botão para deixar cor em segundo plano .nav-links a:hover {
+  color: var();*/
 .nav-links a:hover {
-  color: var(--primary-color);
+  color: var();
 }
 
 .burger {
@@ -118,7 +119,7 @@ nav {
   display: flex;
   align-items: center;
   background: linear-gradient(
-      rgba(190, 196, 201, 0.7),
+      rgba(190, 201, 191, 0.7),
       rgba(186, 197, 185, 0.7)
     ),
     url();
@@ -293,7 +294,7 @@ nav {
 
 .project-card p {
   padding: 0 1rem 1rem;
-  color: #666;
+  color: #961d1d;
 }
 
 .project-card .btn {
