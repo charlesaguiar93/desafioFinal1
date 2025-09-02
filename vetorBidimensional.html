@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>ATIVIDADE FINAL JAVASCRIPT </title>
+ <link rel="stylesheet" href="style.css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Charles<span>Portfolio</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menuStrutura.html">Menu Estruturas</a></li>
+                
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+          <section id="qualification" class="qualification">
+        <h2 class="section-title">Vetor - Bidimensional</h2>
+        <div class="qualification-container">
+            <div class="education">
+                <h3><i class="Project"></i>Vetor - Bidimensional </h3>
+                <div class="timeline">
+                    
+                    <div class="timeline-item">
+                        <h4>Exemplos</h4>
+                  
+                    
+                    <!--Estrutura de repetição Enquanto-->    
+                    <!--Atividade 1-->
+                    <details>
+                    <summary>Atividade 1</summary>
+                  
+                    <details>
+                        <summary>  <strong>ver código</strong> </summary>
+                       <!--Abrindo a tag principal da página-->
+<html>
+  <head>
+    <title>Teste seu código HTML</title>
+    <meta charset="UTF-8" />
+    <meta name="Autor" content="Fábio Borges de Oliveira" />
+  </head>
+  <!--Abrindo a tag body da página principal, colocando a cor cinza para o corpo da página-->
+  <body bgcolor="#CCCCCC">
+    <!--Centralizar o formulário que conterá um componente text-->
+    <center>
+      <!--Formulário que conterá um componente textarea que, por sua vez
+           permitirá inserir os códigos que serão visualizados e executados 
+           na página.-->
+      <form>
+        <br />
+        <!--Abrindo o componente textarea que, por sua vez, conterá
+            os elementos que serão visualizados e executados na página.-->
+        <textarea name="fonte" cols="70" rows="20">
+               <html>
+               <body>
+                  
+                            
+               <!DOCTYPE html>
+                <html lang="pt-br">
+
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title> Desafio 1 matriz - soma a média de renda e o total do predio com 6 andares
+                            com 4 apartamento por andar. </title>
+                    
+                    <link rel="stylesheet" type="text/css" href="css/config.css">
+                    <script src="js/validaproc.js"></script>
+
+                
+                        <style>
+                           
+                          /*Configuraçãoes gerais*/
+
+
+                    section{
+
+                        margin-top: 0px auto;  
+
+                        }
+
+                        /*Comfiguração da página*/
+
+                        .cadinteiro{
+
+                            width: 300px;
+                            margin: 0px auto;
+                            font-weight: bold;
+                            margin-bottom: 10px;
+
+
+                        }
+
+                        .cadinteiro input{
+
+                                margin: 5px auto;
+                                width: 100%;
+                                padding: 5px 0;
+
+
+                        }
+
+                        .cadinteiro button{
+
+                                width: 30%;
+                                margin:  0 10%;
+                                background-color: rgb(114, 161, 202);
+                                font-weight: bold;
+                                font-size: 16px;
+
+                        }
+
+                        label{
+
+                            float: left;
+                        }
+
+                        h2{
+
+                            text-align: center;
+                            margin-top: 0px;
+                            margin-bottom: 10px;
+                            font-size: 50px;
+
+
+                        }
+                </style>
+                
+               </head>
+                <body>
+                <section>
+
+             <h2>Desafio 1 matriz - soma a média de renda e o total do predio com 6 andares
+            com 4 apartamento por andar. </h2>
+        <font face="arial">
+            <form name="frmnumint" action="#" method="get" onsubmit="return validaProc()">
+            <fieldset class="cadinteiro">
+                <legend>Matriz - entrada de dados</legend>
+                <br>
+
+                <button type="submit"> Inserir</button>
+
+
+            </fieldset>
+
+
+
+            </form>
+        </font>
+             </section>
+
+                
+                <script type="text/javascript">
+                                      
+                                                        
+                    function validaProc(){
+
+                    let matriz=[];
+                    let linhaAndar = 6;
+                    let colunApart = 4;
+                    let soma = 0;
+                    let media;
+
+                    for(i=0; i < linhaAndar; i++){
+
+                        matriz[i]=[]
+                        for(c=0; c < colunApart; c++){
+
+                    matriz[i][c] = parseFloat(prompt("Digite a renda do"+(i+1)+"ª andar"+(c+1)+"ª apartamento renda:"));
+                    
+                            soma += matriz[i][c]
+                            
+                        }
+
+
+                    }
+                    media = soma / 4
+                            console.log("A média de renda dos apartamentos é:"+media);
+                            console.log("O total de da renda dos apartamentos são:"+soma);
+
+                    return false
+
+
+                }                     
+                </script>
+                
+                </body>
+                </html>
+               </body>
+               </html>
+
+            </textarea
+        ><!--Finalizando o componente textarea-->
+        <br /><br />
+        <input
+          type="button"
+          value="Testar sua página"
+          onclick="document.write(fonte.value);"
+        />
+      </form>
+    </center>
+  </body>
+  <!--Finalizando a tag body da página principal-->
+</html>
+<!--Fechando a tag principal da página-->
+                    </details>
+                    
+                    <p><strong>Descrição da atividade 1:</strong> O programa vai informar a 
+                         soma e a média de renda e o total do predio com 6 andares
+                            com 4 apartamento por andar.
+
+                          
+                    </p>
+                    </details>
+                   
+                   <!--Atividade 2-->
+                    <br><details>
+                        
+                    <summary>Atividade 2</summary>
+                    
+                    <details>
+                    <summary>  <strong>ver código</strong> </summary>
+        <!--Abrindo a tag principal da página-->
+        <html>
+        <head>
+            <title>Teste seu código HTML</title>
+            <meta charset="UTF-8" />
+            <meta name="Autor" content="Fábio Borges de Oliveira" />
+        </head>
+        <!--Abrindo a tag body da página principal, colocando a cor cinza para o corpo da página-->
+        <body bgcolor="#CCCCCC">
+            <!--Centralizar o formulário que conterá um componente text-->
+            <center>
+            <!--Formulário que conterá um componente textarea que, por sua vez
+                permitirá inserir os códigos que serão visualizados e executados 
+                na página.-->
+            <form>
+                <br />
+                <!--Abrindo o componente textarea que, por sua vez, conterá
+                    os elementos que serão visualizados e executados na página.-->
+                <textarea name="fonte" cols="70" rows="20">
+                    <html>
+                    <body>
+                        
+                            
+
+                     <!DOCTYPE html>
+                    <html lang="pt-br">
+
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Desafio 2 -  leia uma matriz 4x3 de 
+                            números reais e mostre a soma de seus elementos.
+                            
+                            </title>
+                        
+                        <link rel="stylesheet" type="text/css" href="css/config.css">
+                        <script src="js/validaproc.js"></script>
+
+                
+                        <style>
+                           
+                           /*Configuraçãoes gerais*/
+
+
+                        section{
+
+                            margin-top: 0px auto;  
+
+                            }
+
+                            /*Comfiguração da página*/
+
+                            .cadinteiro{
+
+                                width: 300px;
+                                margin: 0px auto;
+                                font-weight: bold;
+                                margin-bottom: 10px;
+
+
+                            }
+
+                            .cadinteiro input{
+
+                                    margin: 5px auto;
+                                    width: 100%;
+                                    padding: 5px 0;
+
+
+                            }
+
+                            .cadinteiro button{
+
+                                    width: 30%;
+                                    margin:  0 10%;
+                                    background-color: rgb(114, 161, 202);
+                                    font-weight: bold;
+                                    font-size: 16px;
+
+                            }
+
+                            label{
+
+                                float: left;
+                            }
+
+                            h2{
+
+                                text-align: center;
+                                margin-top: 0px;
+                                margin-bottom: 10px;
+                                font-size: 50px;
+
+
+                            }
+                
+                </style>
+                
+               </head>
+                <body>
+                 <section>
+
+          <h2>Desafio 2- leia uma matriz 4x3 de  números reais - mostre a soma de seus elementos.</h2>
+        <font face="arial">
+            <form name="frmnumint" action="#" method="get" onsubmit="return validaProc()">
+            <fieldset class="cadinteiro">
+                <legend>Matriz - entrada de dados</legend>
+                <br>
+
+                <button type="submit"> Inserir</button>
+
+
+            </fieldset>
+
+
+
+            </form>
+        </font>
+
+            </section>
+
+                
+                <script type="text/javascript">
+                                      
+                      function validaProc(){
+
+
+                    let matriz=[];
+                    let linhas = 4;
+                    let colunas = 3;
+                    let soma = 0;
+
+                    for(i=0; i < linhas; i++){
+
+                        matriz[i]=[]
+                        for(c=0; c < colunas; c++){
+
+                            matriz[i][c] = parseFloat(prompt("Digite o número da "+i+" ª linha"+c+"ª coluna:"));
+                            soma += matriz[i][c];
+                            
+                        }
+                    }
+                    console.log("A soma dos elementos da matriz é:"+soma)  
+
+
+                    return false
+
+
+                }                 
+                </script>
+                
+                </body>
+                </html>
+               </body>
+               </html>
+
+                        </textarea
+                    ><!--Finalizando o componente textarea-->
+                    <br /><br />
+                    <input
+                    type="button"
+                    value="Testar sua página"
+                    onclick="document.write(fonte.value);"
+                    />
+                </form>
+                </center>
+            </body>
+            <!--Finalizando a tag body da página principal-->
+            </html>
+            <!--Fechando a tag principal da página-->
+                    
+                    </details>
+                         
+                        
+                        <p> <strong>Descrição da atividade 2:</strong>
+
+                        leia uma matriz 4x3 de 
+                         números reais e mostre a soma de seus elementos.
+                    </p>
+                    
+                  </details>
+                   
+                 <!--Atividade 3-->
+                  <br> <details>
+                    
+                    <details>
+                        <summary><strong>Ver código</strong></summary>
+                        <!--Abrindo a tag principal da página-->
+            <html>
+            <head>
+                <title>Teste seu código HTML</title>
+                <meta charset="UTF-8" />
+                <meta name="Autor" content="Fábio Borges de Oliveira" />
+            </head>
+            <!--Abrindo a tag body da página principal, colocando a cor cinza para o corpo da página-->
+            <body bgcolor="#CCCCCC">
+                <!--Centralizar o formulário que conterá um componente text-->
+                <center>
+                <!--Formulário que conterá um componente textarea que, por sua vez
+                    permitirá inserir os códigos que serão visualizados e executados 
+                    na página.-->
+                <form>
+                    <br />
+                    <!--Abrindo o componente textarea que, por sua vez, conterá
+                        os elementos que serão visualizados e executados na página.-->
+                    <textarea name="fonte" cols="70" rows="20">
+                        <html>
+                        <body>
+                            
+                            
+
+                     <!DOCTYPE html>
+                    <html lang="pt-br">
+
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title> Desafio 3 matriz - leia uma matriz 
+                            5 x 5 de números inteiros  e gere outra matriz, de mesmo tamanho em que cada 
+                            elemento seja o dobro de seu respectivo da matriz original. e gere outra matriz, 
+                            de mesmo tamanho em que cada . Mostrar a matriz original 
+                            e a nova.
+                            </title>
+                        
+                        <link rel="stylesheet" type="text/css" href="css/config.css">
+                        <script src="js/validaproc.js"></script>
+
+
+                
+                        <style>
+                           
+                          /*Configuraçãoes gerais*/
+
+
+                        section{
+
+                            margin-top: 0px auto;  
+
+                            }
+
+                            /*Comfiguração da página*/
+
+                            .cadinteiro{
+
+                                width: 300px;
+                                margin: 0px auto;
+                                font-weight: bold;
+                                margin-bottom: 10px;
+
+
+                            }
+
+                            .cadinteiro input{
+
+                                    margin: 5px auto;
+                                    width: 100%;
+                                    padding: 5px 0;
+
+
+                            }
+
+                            .cadinteiro button{
+
+                                    width: 30%;
+                                    margin:  0 10%;
+                                    background-color: rgb(114, 161, 202);
+                                    font-weight: bold;
+                                    font-size: 16px;
+
+                            }
+
+                            label{
+
+                                float: left;
+                            }
+
+                            h2{
+
+                                text-align: center;
+                                margin-top: 0px;
+                                margin-bottom: 10px;
+                                font-size: 50px;
+
+
+                            }
+                
+                </style>
+                
+               </head>
+                <body>
+                  <section>
+
+         <h2>Desafio 3 matriz - matriz 
+            5 x 5 de números inteiros gerar outra matriz com o dobro da original. </h2>
+        <font face="arial">
+            <form name="frmnumint" action="#" method="get" onsubmit="return validaProc()">
+            <fieldset class="cadinteiro">
+                <legend>Matriz - entrada de dados</legend>
+                <br>
+
+                <button type="submit"> Inserir</button>
+
+
+            </fieldset>
+
+
+
+            </form>
+        </font>
+
+    </section>
+
+                
+                <script type="text/javascript">
+                                      
+                 function validaProc(){
+
+
+
+
+
+                let matriz=[];
+                let linhas = 5;
+                let colunas = 5;
+
+                let matriz2=[]
+                let linha = 5;
+                let coluna = 5; 
+
+
+                for(i=0; i < linhas; i++){
+
+                    matriz[i]=[]
+                    for(c=0; c < linhas; c++){
+
+                        matriz[i][c] = parseInt(prompt("Digite o número da "+(i+1)+" ª linha e "+(c+1)+"ª coluna:"));
+                        console.log("A linha:[" +i+ "] multiplica com a coluna:[" +c+"] resultado é:"+matriz[i][c]);  
+                        document.write(+matriz[i][c]+"&nbsp&nbsp");
+                        
+                        
+                    
+                    }
+                document.write("<br>");  
+                }
+
+
+
+                for(i=0; i < linha; i++){
+
+                    matriz2[i]=[]
+                    for(c=0; c < coluna; c++){
+                        matriz[i][c] = matriz[i][c] * matriz[i][c];
+                        
+                        console.log("A linha:[" +i+ "] multiplica com a coluna:[" +c+"] resultado é:"+matriz[i][c]);  
+                        document.write(+matriz[i][c]+"&nbsp&nbsp");
+                    }
+                    document.write("<br>");  
+                }
+
+                return false;
+
+             }              
+                </script>
+                
+                </body>
+                </html>
+               </body>
+               </html>
+
+                    </textarea
+                ><!--Finalizando o componente textarea-->
+                <br /><br />
+                <input
+                type="button"
+                value="Testar sua página"
+                onclick="document.write(fonte.value);"
+                />
+            </form>
+            </center>
+        </body>
+        <!--Finalizando a tag body da página principal-->
+        </html>
+        <!--Fechando a tag principal da página-->
+
+    </details>
+                    
+            <summary>Atividade 3</summary>
+           
+            <p> <strong>Descrição da atividade 3:</strong> leia uma matriz 
+                      
+                    5 x 5 de números inteiros  e gere outra matriz, de mesmo tamanho em que cada 
+                    elemento seja o dobro de seu respectivo da matriz original. e gere outra matriz, 
+                    de mesmo tamanho em que cada . Mostrar a matriz original 
+                    e a nova.</p>
+                                
+                  </details>
+                   
+                   </div>
+                   </div>  
+                    
+            </div>
+            <div class="experience">
+                <details>
+                <summary><strong>Descrição de Vetor - Bidimensional</strong></summary>
+                    <h2><i class=></i><strong>Descrição de Vetor - Bidimensional</strong> </h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <br><h3>Um vetor bidimensional é uma estrutura de dados que organiza elementos em formato de tabela, 
+                            com linhas e colunas, utilizando dois índices para acessar cada valor. Em Java, 
+                            ele é implementado como um "vetor de vetores" (ou matriz), onde cada linha é um vetor. 
+                            Em JavaScript, é um array de arrays, onde cada subarray representa uma linha. 
+                            Essa estrutura é útil para representar dados tabulares, como grades ou matrizes, 
+                            e o acesso a um elemento específico é feito através dos índices de linha e coluna
+.  </h3><br>
+                        <p></p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4></h4>
+                        <p></p>
+                    </div>
+                </div>
+                </details>
+            
+           
+            </div>
+        </div>
+        <div class="certificates">
+            <img src="asset/htmlcssjs.jpg" alt="Certification">
+        </div>
+    </section>
+   </main>
+</body>
+</html>

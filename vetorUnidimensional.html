@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>ATIVIDADE FINAL JAVASCRIPT </title>
+ <link rel="stylesheet" href="style.css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Charles<span>Portfolio</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menuStrutura.html">Menu Estruturas</a></li>
+                
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+          <section id="qualification" class="qualification">
+        <h2 class="section-title">Vetor - Unidimensional</h2>
+        <div class="qualification-container">
+            <div class="education">
+                <h3><i class="Project"></i>Vetor - Unidimensional </h3>
+                <div class="timeline">
+                    
+                    <div class="timeline-item">
+                        <h4>Exemplos</h4>
+                  
+                    
+                    <!--Estrutura de repetição Enquanto-->    
+                    <!--Atividade 1-->
+                    <details>
+                    <summary>Atividade 1</summary>
+                  
+                    <details>
+                        <summary>  <strong>ver código</strong> </summary>
+                       <!--Abrindo a tag principal da página-->
+<html>
+  <head>
+    <title>Teste seu código HTML</title>
+    <meta charset="UTF-8" />
+    <meta name="Autor" content="Fábio Borges de Oliveira" />
+  </head>
+  <!--Abrindo a tag body da página principal, colocando a cor cinza para o corpo da página-->
+  <body bgcolor="#CCCCCC">
+    <!--Centralizar o formulário que conterá um componente text-->
+    <center>
+      <!--Formulário que conterá um componente textarea que, por sua vez
+           permitirá inserir os códigos que serão visualizados e executados 
+           na página.-->
+      <form>
+        <br />
+        <!--Abrindo o componente textarea que, por sua vez, conterá
+            os elementos que serão visualizados e executados na página.-->
+        <textarea name="fonte" cols="70" rows="20">
+               <html>
+               <body>
+                  
+                            
+
+                <!DOCTYPE html>
+            <html lang="pt-br">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Desafios 1 vetores - média do bimestre de 5 alunos</title>
+                
+                <link rel="stylesheet" type="text/css" href="css/config.css">
+                <script src="js/validaproc.js"></script>
+
+                
+                        <style>
+                           
+                          /*Configuraçãoes gerais*/
+
+
+                    section{
+
+                        margin-top: 0px auto;  
+
+                        }
+
+                        /*Comfiguração da página*/
+
+                        .cadinteiro{
+
+                            width: 300px;
+                            margin: 0px auto;
+                            font-weight: bold;
+                            margin-bottom: 10px;
+
+
+                        }
+
+                        .cadinteiro input{
+
+                                margin: 5px auto;
+                                width: 100%;
+                                padding: 5px 0;
+
+
+                        }
+
+                        .cadinteiro button{
+
+                                width: 30%;
+                                margin:  0 10%;
+                                background-color: rgb(114, 161, 202);
+                                font-weight: bold;
+                                font-size: 16px;
+
+                        }
+
+                        label{
+
+                            float: left;
+                        }
+
+                        h2{
+
+                            text-align: center;
+                            margin-top: 0px;
+                            margin-bottom: 10px;
+                            font-size: 50px;
+
+
+                        }
+                </style>
+                
+               </head>
+                <body>
+                <section>
+
+                 <h2>Desafios vetores - média do bimestre de 5 alunos </h2>
+        <font face="arial">
+            <form name="frmnumint" action="#" method="get" onsubmit="return validaProc()">
+            <fieldset class="cadinteiro">
+                <legend>Inserir as notas</legend>
+                <br>
+
+                <button type="submit"> notas</button>
+
+
+            </fieldset>
+
+
+
+            </form>
+        </font>
+
+             </section>
+
+                
+                <script type="text/javascript">
+                                      
+                                                        
+                                function validaProc(){
+
+                let i;
+                let notas1={}; notas2={};
+                let mediaNotas={};
+
+                for(i=0; i<5; i++){
+                    notas1[i] = parseFloat(prompt("Digite a primeira, nota do bimestre: " + (i+1)+ "º nota:"))
+                }
+
+                for(i=0; i<5; i++){
+                    notas2[i] = parseFloat(prompt("Digite a segunda nota do bimestre:"+(i+1)+ "º nota:"))
+
+                }
+
+                for(i=0; i<5; i++){
+
+                mediaNotas[i] = (notas1[i] + notas2[i]) / 2
+
+                mediaNotas[i] = prompt("A média do "+(i+1)+"º aluno é: " + mediaNotas[i]);
+
+
+                }
+
+             }                       
+                </script>
+                
+                </body>
+                </html>
+               </body>
+               </html>
+
+            </textarea
+        ><!--Finalizando o componente textarea-->
+        <br /><br />
+        <input
+          type="button"
+          value="Testar sua página"
+          onclick="document.write(fonte.value);"
+        />
+      </form>
+    </center>
+  </body>
+  <!--Finalizando a tag body da página principal-->
+</html>
+<!--Fechando a tag principal da página-->
+                    </details>
+                    
+                    <p><strong>Descrição da atividade 1:</strong> O programa vai informar a média 
+                        do bimestre de 5 cinco alunos
+                        cada aluno vai ter 2 duas notas neste bimestre. Essas notas
+                        vão ser armazenadas no vetor unidimensional de 5 cinco posições, o primeiro vetor 
+                        armazena as 5 cinco primeiras notas,
+                        o segundo vetor armazena as outras 5 cinco notas.
+                        O terceiro vetor armazena a soma das notas e calcula a média
+                        e imprime no visor. 
+
+                          
+                    </p>
+                    </details>
+                   
+                   <!--Atividade 2-->
+                    <br><details>
+                        
+                    <summary>Atividade 2</summary>
+                    
+                    <details>
+                    <summary>  <strong>ver código</strong> </summary>
+        <!--Abrindo a tag principal da página-->
+        <html>
+        <head>
+            <title>Teste seu código HTML</title>
+            <meta charset="UTF-8" />
+            <meta name="Autor" content="Fábio Borges de Oliveira" />
+        </head>
+        <!--Abrindo a tag body da página principal, colocando a cor cinza para o corpo da página-->
+        <body bgcolor="#CCCCCC">
+            <!--Centralizar o formulário que conterá um componente text-->
+            <center>
+            <!--Formulário que conterá um componente textarea que, por sua vez
+                permitirá inserir os códigos que serão visualizados e executados 
+                na página.-->
+            <form>
+                <br />
+                <!--Abrindo o componente textarea que, por sua vez, conterá
+                    os elementos que serão visualizados e executados na página.-->
+                <textarea name="fonte" cols="70" rows="20">
+                    <html>
+                    <body>
+                        
+                            
+
+              <!DOCTYPE html>
+                <html lang="pt-br">
+
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Desafios 2 vetores - Alimenter um vetor 10 valores inteiros
+                        informar qual a posição do vetor está o valor do usuário "se tiver"  </title>
+                    
+                    <link rel="stylesheet" type="text/css" href="css/config.css">
+                    <script src="js/validaproc.js"></script>
+
+                
+                        <style>
+                           
+                           /*Configuraçãoes gerais*/
+
+
+                        section{
+
+                            margin-top: 0px auto;  
+
+                            }
+
+                            /*Comfiguração da página*/
+
+                            .cadinteiro{
+
+                                width: 300px;
+                                margin: 0px auto;
+                                font-weight: bold;
+                                margin-bottom: 10px;
+
+
+                            }
+
+                            .cadinteiro input{
+
+                                    margin: 5px auto;
+                                    width: 100%;
+                                    padding: 5px 0;
+
+
+                            }
+
+                            .cadinteiro button{
+
+                                    width: 30%;
+                                    margin:  0 10%;
+                                    background-color: rgb(114, 161, 202);
+                                    font-weight: bold;
+                                    font-size: 16px;
+
+                            }
+
+                            label{
+
+                                float: left;
+                            }
+
+                            h2{
+
+                                text-align: center;
+                                margin-top: 0px;
+                                margin-bottom: 10px;
+                                font-size: 50px;
+
+
+                            }
+                
+                </style>
+                
+               </head>
+                <body>
+                 <section>
+
+         <h2>Desafios 2 vetores - Informar se o valor do usuário esta no,
+            vetor com 10 posições  </h2>
+        <font face="arial">
+            <form name="frmnumint" action="#" method="get" onsubmit="return validaProc()">
+            <fieldset class="cadinteiro">
+                <legend>Alimentar o vetor 10 posições </legend>
+                <br>
+
+                <button type="submit"> Inserir</button>
+
+
+            </fieldset>
+
+
+
+            </form>
+        </font>
+
+            </section>
+
+                
+                <script type="text/javascript">
+                                      
+                                        
+               function validaProc(){
+
+                let i;
+                let num={}
+                let valorUsuario;
+                let posicao = false; 
+
+
+                for(i=0; i<10; i++ ){
+                    num[i] = parseInt(prompt("Digite o "+(i+1)+"º número"));
+
+                }
+
+                valorUsuario = parseInt(prompt("Digite um valor inteiro:"));
+
+                for(i=0; i<10; i++){
+
+                    if (valorUsuario  === num[i]){
+                        posicao = true;
+                    console.log("O valor esta na posição [" +(i+1)+ "] do vetor");
+                    }
+                    
+
+                }
+
+                if(posicao === false){
+
+                    console.log("O valor não esta na posição do vetor");
+                }
+
+                return false
+
+
+                }                  
+                </script>
+                
+                </body>
+                </html>
+               </body>
+               </html>
+
+                        </textarea
+                    ><!--Finalizando o componente textarea-->
+                    <br /><br />
+                    <input
+                    type="button"
+                    value="Testar sua página"
+                    onclick="document.write(fonte.value);"
+                    />
+                </form>
+                </center>
+            </body>
+            <!--Finalizando a tag body da página principal-->
+            </html>
+            <!--Fechando a tag principal da página-->
+                    
+                    </details>
+                         
+                        
+                        <p> <strong>Descrição da atividade 2:</strong>
+
+                       Alimente um vetor com dez 10 posições de valores inteiros,
+                        o programa vai informar qual a posição do vetor está o valor do usuário "se tiver"
+                        se o valor do usuário não estiver nas posições do vetor ele informara também. 
+ 
+                    </p>
+                    
+                  </details>
+                   
+                 <!--Atividade 3-->
+                  <br> <details>
+                    
+                    <details>
+                        <summary><strong>Ver código</strong></summary>
+                        <!--Abrindo a tag principal da página-->
+            <html>
+            <head>
+                <title>Teste seu código HTML</title>
+                <meta charset="UTF-8" />
+                <meta name="Autor" content="Fábio Borges de Oliveira" />
+            </head>
+            <!--Abrindo a tag body da página principal, colocando a cor cinza para o corpo da página-->
+            <body bgcolor="#CCCCCC">
+                <!--Centralizar o formulário que conterá um componente text-->
+                <center>
+                <!--Formulário que conterá um componente textarea que, por sua vez
+                    permitirá inserir os códigos que serão visualizados e executados 
+                    na página.-->
+                <form>
+                    <br />
+                    <!--Abrindo o componente textarea que, por sua vez, conterá
+                        os elementos que serão visualizados e executados na página.-->
+                    <textarea name="fonte" cols="70" rows="20">
+                        <html>
+                        <body>
+                            
+                            
+
+              <!DOCTYPE html>
+                <html lang="pt-br">
+
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title> Desafio 3 vetores - Alimente o vetor com 5 números inteiros, multiplicar o 
+                        informado pelo usuário por cada elemento do vetor. </title>
+                    
+                    <link rel="stylesheet" type="text/css" href="css/config.css">
+                    <script src="js/validaproc.js"></script>
+
+
+                
+                        <style>
+                           
+                          /*Configuraçãoes gerais*/
+
+
+                        section{
+
+                            margin-top: 0px auto;  
+
+                            }
+
+                            /*Comfiguração da página*/
+
+                            .cadinteiro{
+
+                                width: 300px;
+                                margin: 0px auto;
+                                font-weight: bold;
+                                margin-bottom: 10px;
+
+
+                            }
+
+                            .cadinteiro input{
+
+                                    margin: 5px auto;
+                                    width: 100%;
+                                    padding: 5px 0;
+
+
+                            }
+
+                            .cadinteiro button{
+
+                                    width: 30%;
+                                    margin:  0 10%;
+                                    background-color: rgb(114, 161, 202);
+                                    font-weight: bold;
+                                    font-size: 16px;
+
+                            }
+
+                            label{
+
+                                float: left;
+                            }
+
+                            h2{
+
+                                text-align: center;
+                                margin-top: 0px;
+                                margin-bottom: 10px;
+                                font-size: 50px;
+
+
+                            }
+                
+                </style>
+                
+               </head>
+                <body>
+                  <section>
+
+        <h2> Desafio 3 vetores - multiplicar o valor 
+            informado pelo usuário por cada elemento do vetor. </h2>
+        <font face="arial">
+            <form name="frmnumint" action="#" method="get" onsubmit="return validaProc()">
+            <fieldset class="cadinteiro">
+                <legend>Alimente o vetor 5 posições</legend>
+                <br>
+
+                <button type="submit"> Inserir</button>
+
+
+            </fieldset>
+
+
+
+            </form>
+        </font>
+
+    </section>
+
+                
+                <script type="text/javascript">
+                                      
+                 function validaProc(){
+
+                let i;
+                let valores={}
+                let valorUsuario;
+                let multValor;
+
+                for(i=0; i<5; i++){
+
+                    valores[i] = parseInt(prompt("Digite o " + (i+1)+"º número"));
+                }
+
+                valorUsuario = parseInt(prompt("Digite um número inteiro"));
+
+
+                for(i=0; i<5; i++){
+
+                multValor = valorUsuario * valores[i]
+                console.log("Posição ["+(i+1)+"] - Valor: [" +valores[i]+ "] com o resultado: " + multValor);
+
+                }
+                return false
+
+
+
+                }                 
+                </script>
+                
+                </body>
+                </html>
+               </body>
+               </html>
+
+                    </textarea
+                ><!--Finalizando o componente textarea-->
+                <br /><br />
+                <input
+                type="button"
+                value="Testar sua página"
+                onclick="document.write(fonte.value);"
+                />
+            </form>
+            </center>
+        </body>
+        <!--Finalizando a tag body da página principal-->
+        </html>
+        <!--Fechando a tag principal da página-->
+
+                    </details>
+                    
+                    <summary>Atividade 3</summary>
+                   <p> </p> <strong>Descrição da atividade 3:</strong>
+                       Alimente o vetor com 5 números inteiros, multiplicar o 
+                        informado pelo usuário por cada elemento do vetor.
+                        </p>
+                  
+                    </details>
+                   
+                   </div>
+                   </div>  
+                    
+            </div>
+            <div class="experience">
+                <details>
+                <summary><strong>Descrição de Vetor - Unidimensional</strong></summary>
+                    <h2><i class=></i><strong>Descrição de Vetor - Unidimensional</strong> </h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <br><h3>Um vetor unidimensional é uma estrutura de dados 
+                            que armazena uma coleção de elementos do mesmo tipo, 
+                            como números ou texto, em uma única linha de memória. 
+                            Esses elementos são organizados de forma ordenada e podem ser acessados por 
+                            meio de um índice, que representa sua posição sequencial
+                             dentro da estrutura, começando geralmente do índice 0.  </h3><br>
+                        <p></p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4></h4>
+                        <p></p>
+                    </div>
+                </div>
+                </details>
+            
+           
+            </div>
+        </div>
+        <div class="certificates">
+            <img src="asset/htmlcssjs.jpg" alt="Certification">
+        </div>
+    </section>
+   </main>
+</body>
+</html>

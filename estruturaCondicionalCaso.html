@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>ATIVIDADE FINAL JAVASCRIPT </title>
+ <link rel="stylesheet" href="style.css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Charles<span>Portfolio</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menuStrutura.html">Menu Estruturas</a></li>
+                
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+          <section id="qualification" class="qualification">
+        <h2 class="section-title">Estrutura condicional - CASO</h2>
+        <div class="qualification-container">
+            <div class="education">
+                <h3><i class="Project"></i>Estrutura condicional - CASO</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>Exemplo</h4>
+                    <section>
+                    <details>
+                    <summary>Atividade 1</summary>
+                    
+                    <details>
+                        <summary>ver código </summary>
+                        <html>
+                            <head>
+                            
+                                  <title>Teste seu código HTML</title>
+                                  <meta charset = "UTF-8">
+                                  <meta name="Autor" content="Fábio Borges de Oliveira">
+                            
+                            </head>
+                            <!--Abrindo a tag body da página principal, colocando a cor cinza para o corpo da página-->
+                            <body bgcolor="#CCCCCC">
+                                   <!--Centralizar o formulário que conterá um componente text-->
+                                   <center>
+                                   <!--Formulário que conterá um componente textarea que, por sua vez
+                                       permitirá inserir os códigos que serão visualizados e executados 
+                                       na página.-->
+                                   <form>
+                                        <br>
+                                        <!--Abrindo o componente textarea que, por sua vez, conterá
+                                        os elementos que serão visualizados e executados na página.-->
+                                        <textarea name="fonte" cols="70" rows="20">
+                                           <html>
+                                           <body>
+                                              
+                                                        
+                            
+                                            <!DOCTYPE html>
+                                            <html lang="pt-br">
+                                            
+                                            <head>
+                                                <meta charset="UTF-8">
+                                                <title>Extrutura CASO JavaScript - Atividade 1 </title>
+                                                <link rel="stylesheet" type="text/css" href="css/config.css">
+                                                <script src="js/valproc.js"></script>
+                                            
+                                                    <style>
+                                                       
+                                                        section{
+                                            
+                                            
+                                                   margin-top: 0px auto;
+                                            }
+                                            
+                                            /* Configuração do formulário*/
+                                            
+                                            .cadnumint{
+                                            
+                                                width: 300px;
+                                                margin: 0px auto;
+                                                font-weight: bold;
+                                                margin-bottom: 10px;
+                                            
+                                            }
+                                            
+                                            .cadnumint input{
+                                            
+                                                 margin: 5px auto;
+                                                 width: 100%;
+                                                 padding: 5px 0;
+                                            
+                                            }
+                                            
+                                            .cadnumint button{
+                                            
+                                                 width: 30%;
+                                                 margin: 0 10%;
+                                                 background-color: rgb(165, 198, 226);
+                                                 font-weight: bold;
+                                                 font-size: 16px;
+                                            }
+                                            
+                                            label{
+                                            
+                                                  float: left;
+                                            }
+                                            
+                                            h2{
+                                                text-align: center;
+                                                margin-top: 0px;
+                                                margin-bottom: 10px;
+                                                font-size: 50px;
+                                            }
+                                            </style>
+                                            
+                                           </head>
+                                            <body>
+                                                <section>
+                                                    <h2>Estrutura SWITCH - Classificação por Idade</h2>
+                                                    <font face="arial">
+                                                        <form name="frmnumint" action="#" method="get" onsubmit="return procFormulario()">
+                                                            <fieldset class="cadnumint">
+                                                                <legend>Entrada de dados</legend>
+                                                                <br>
+                                                                <label for="numint">Informe sua idade:</label>
+                                                                <input type="text" name="txtnumint" id="numint"><br><br>
+                                                                <button type="reset">Limpar</button><button type="submit">Enviar</button>
+                                                            </fieldset>
+                                                        </form>
+                                                    </font>
+                                                   </section>
+                                            
+                                                  <script type="text/javascript">
+                                                                  
+                                                                  function procFormulario() {
+                                        if (document.frmnumint.txtnumint.value == "") {
+                                            alert("Preencha o campo número inteiro");
+                                            document.frmnumint.focus();
+                                            return false;
+                                        } else {
+
+                                            let numint = parseInt(document.getElementById("numint").value);
+                                            switch (true) {
+                                                case (numint >= 0 && numint <= 3):
+                                                    console.log("Bebê");
+                                                    return false;
+                                                    break;
+
+                                                case (numint >= 4 && numint <= 10):
+                                                    console.log("Criança");
+                                                    return false;
+                                                    break;
+
+                                                case (numint >= 11 && numint <= 18):
+                                                    console.log("Adolescente");
+                                                    return false;
+                                                    break;
+                                                    
+                                                default:
+                                                    console.log("Adulto");
+                                                    return false;
+                                                    break;
+                                            }
+                                        }
+                                    }                       
+                                            </script>
+                                            
+                                            </body>
+                                            </html>
+                                           </body>
+                                           </html>
+                            
+                                        </textarea><!--Finalizando o componente textarea-->
+                                        <br><br>
+                                        
+                                       
+                                        <input type="button" value="Para rodar o código" 
+                                         onclick="document.write(fonte.value);"> 
+                                        
+                                   </form>
+                            
+                            
+                                   </center>
+                            
+                            </body><!--Finalizando a tag body da página principal-->
+                                  
+                            
+                            
+                            
+                            
+                            
+                            </html>
+                    </details>
+                    
+                    <p><strong>Descrição da atividade 1:</strong> O usuário vai digitar sua idade, dependendo
+                        da idade que o usuário digitar, ele vai entrar na estrutura (switch/case)
+                         caso maior Adulto, caso menor Adolescente, caso maior de 4 anos Criança,
+                        caso menor de 4 anos Bebê. O resultado será imprimido no console.
+                    </p>
+                    </details>
+                    
+                    
+                    <br><details>
+                        
+                    <summary>Atividade 2</summary>
+                    
+                    <details>
+                        <summary>ver código</summary>
+                        <html>
+                            <head>
+                            
+                                  <title>Teste seu código HTML</title>
+                                  <meta charset = "UTF-8">
+                                  <meta name="Autor" content="Fábio Borges de Oliveira">
+                            
+                            </head>
+                            <!--Abrindo a tag body da página principal, colocando a cor cinza para o corpo da página-->
+                            <body bgcolor="#CCCCCC">
+                                   <!--Centralizar o formulário que conterá um componente text-->
+                                   <center>
+                                   <!--Formulário que conterá um componente textarea que, por sua vez
+                                       permitirá inserir os códigos que serão visualizados e executados 
+                                       na página.-->
+                                   <form>
+                                        <br>
+                                        <!--Abrindo o componente textarea que, por sua vez, conterá
+                                        os elementos que serão visualizados e executados na página.-->
+                                        <textarea name="fonte" cols="70" rows="20">
+                                           <html>
+                                           <body>
+                                              
+                                                        
+                            
+                                            <!DOCTYPE html>
+                                            <html lang="pt-BR">
+                                            <head>
+                                                <meta charset="UTF-8">
+                                                <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+                                                <title>Calculadora Simples</title>
+                                                <link rel="stylesheet" href="css/config.css">
+                                                <script src="js/calc.js"></script>
+                                            
+                                                    <style>
+                                                       
+                                                       section{
+                                            
+                                            
+                                            margin-top: 0px auto;
+                                     }
+                                     
+                                     /* Configuração do formulário*/
+                                     
+                                     .calculadora{
+                                     
+                                         width: 300px;
+                                         margin: 0px auto;
+                                         font-weight: bold;
+                                         margin-bottom: 10px;
+                                     
+                                     }
+                                     
+                                     .calculadora input{
+                                     
+                                          margin: 5px auto;
+                                          width: 100%;
+                                          padding: 5px 0;
+                                     
+                                     }
+                                     
+                                     .calculadora button{
+                                     
+                                          width: 30%;
+                                          margin: 0 10%;
+                                          background-color: rgb(165, 198, 226);
+                                          font-weight: bold;
+                                          font-size: 16px;
+                                     }
+                                     
+                                     label{
+                                     
+                                           float: left;
+                                     }
+                                     
+                                     h2{
+                                         text-align: center;
+                                         margin-top: 0px;
+                                         margin-bottom: 10px;
+                                         font-size: 50px;
+                                     }
+                                             </style>
+                                            
+                                           </head>
+                                            <body>
+                                                <section>
+                                                   
+                                                    <div class="calculadora">
+                                                        <h1>Calculadora com Estrutura SWITCH</h1>
+                                                
+                                                        <label for="num1">Digite o primeiro número:</label>
+                                                        <input type="number" id="num1" required>
+                                                
+                                                        <label for="num2">Digite o segundo número:</label>
+                                                        <input type="number" id="num2" required>
+                                                
+                                                        <label for="operacao">Escolha a operação matemática:</label>
+                                                        <select id="operacao">
+                                                            <option value="soma">Soma (+)</option>
+                                                            <option value="subtracao">Subtração (-)</option>
+                                                            <option value="multiplicacao">Multiplicação (*)</option>
+                                                            <option value="divisao">Divisão (/)</option>
+                                                        </select>
+                                                
+                                                        <button onclick="calculadora()">Calcular</button>
+                                                
+                                                        <div id="result-area"></div>
+                                                    </div>
+            
+                                                   </section>
+                                              
+                                                  <script type="text/javascript">
+                                                                  
+                                                                    
+                                                                  function calculadora() {
+  
+                            const num1 = parseFloat(document.getElementById('num1').value);
+                            const num2 = parseFloat(document.getElementById('num2').value);
+                            const operation = document.getElementById('operacao').value;
+                            const resultArea = document.getElementById('result-area');
+                            resultArea.innerHTML = '';
+                            if (isNaN(num1) || isNaN(num2)) {
+                                resultArea.innerHTML = '<p style="color: red;">Por favor, insira números válidos.</p>';
+                                return;
+                            }
+                            let result;
+                            let operationText = '';
+                            switch (operation) {
+                                case 'soma':
+                                    result = num1 + num2;
+                                    operationText = 'Soma';
+                                    break;
+                                case 'subtracao':
+                                    result = num1 - num2;
+                                    operationText = 'Subtração';
+                                    break;
+                                case 'multiplicacao':
+                                    result = num1 * num2;
+                                    operationText = 'Multiplicação';
+                                    break;
+                                case 'divisao':
+
+                                    if (num2 === 0) {
+                                        resultArea.innerHTML = '<p style="color: red;">Não é possível dividir por zero.</p>';
+                                        return;
+                                    }
+                                    result = num1 / num2;
+                                    operationText = 'Divisão';
+                                    break;
+                                default:
+                                    resultArea.innerHTML = '<p style="color: red;">Operação inválida.</p>';
+                                    return;
+                            }
+                            const parity = (result % 2 === 0) ? 'Par' : 'Ímpar';
+                            resultArea.innerHTML += `<p><strong>Operação escolhida:</strong> ${operationText}</p>`;
+                            resultArea.innerHTML += `<p><strong>Números digitados:</strong> ${num1} e ${num2}</p>`;
+                            resultArea.innerHTML += `<p><strong>Resultado:</strong> ${result}</p>`;
+                            resultArea.innerHTML += `<p><strong>O resultado é:</strong> ${parity}</p>`;
+                            }                      
+                                            </script>
+                                            
+                                            </body>
+                                            </html>
+                                           </body>
+                                           </html>
+                            
+                                        </textarea><!--Finalizando o componente textarea-->
+                                        <br><br>
+                                        
+                                       
+                                        <input type="button" value="Para rodar o código" 
+                                         onclick="document.write(fonte.value);"> 
+                                        
+                                   </form>
+                            
+                            
+                                   </center>
+                            
+                            </body><!--Finalizando a tag body da página principal-->
+                                  
+                            
+                            
+                            
+                            
+                            
+                            </html>
+                    </details>
+                         
+                        
+                        <p> <strong>Descrição da atividade 2:</strong> Calculadora usando a estrutura (swith/case)
+                            o usuário vai digitar 2 dois valores, logo após ele vai escolher qual
+                            o calculo ele quer fazer (case)soma, (case) subtração, (case) multiplicação,
+                            e (case) divisão. O resultado do programa será imprimido no console. 
+
+                    </p>
+                    
+                  </details>
+                   
+                
+                </section>
+                    
+                    
+                    </div>
+                    
+                    <h3><i class="Project"></i></h3>
+                    <div class="timeline-item">
+                        <h4></h4>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="experience">
+                <details>
+                <summary><strong>Descrição da estrutura condicional - CASO</strong></summary>
+                    <h2><i class=></i><strong>Descrição da estrutura condisional - caso</strong> </h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <br><h3>A estrutura de seleção switch-case é uma forma de tomar decisões em programação, 
+                            que compara uma única expressão com vários 
+                            valores possíveis (os cases) e executa um bloco de código 
+                            correspondente ao primeiro case que for igual à expressão. 
+                            O break é usado para sair da estrutura 
+                            após a execução de um case, e o default é um bloco opcional que 
+                            é executado se nenhum dos cases corresponder à expressão. </h3><br>
+                        <p></p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4></h4>
+                        <p></p>
+                    </div>
+                </div>
+                </details>
+            </div>
+        </div>
+        <div class="certificates">
+            <img src="asset/htmlcssjs.jpg" alt="Certification">
+        </div>
+    </section>
+   </main>
+</body>
+</html>

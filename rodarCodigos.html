@@ -1,0 +1,172 @@
+<!--Abrindo a tag principal da página-->
+<html>
+  <head>
+    <title>Teste seu código HTML</title>
+    <meta charset="UTF-8" />
+    <meta name="Autor" content="Fábio Borges de Oliveira" />
+  </head>
+  <!--Abrindo a tag body da página principal, colocando a cor cinza para o corpo da página-->
+  <body bgcolor="#CCCCCC">
+    <!--Centralizar o formulário que conterá um componente text-->
+    <center>
+      <!--Formulário que conterá um componente textarea que, por sua vez
+           permitirá inserir os códigos que serão visualizados e executados 
+           na página.-->
+      <form>
+        <br />
+        <!--Abrindo o componente textarea que, por sua vez, conterá
+            os elementos que serão visualizados e executados na página.-->
+        <textarea name="fonte" cols="70" rows="20">
+               <html>
+               <body>
+                  
+                            
+
+               <!DOCTYPE html>
+                <html lang="pt-br">
+
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Ler 3 números inteiros positivo exibir a soma dos números que são divisiveis por 5.</title>
+                    <link rel="stylesheet" type="text/css" href="css/config.css">
+                    <script src="js/validaproc.js"></script>
+
+
+                
+                        <style>
+                           
+                          /*Configuraçãoes gerais*/
+
+
+                        section{
+
+                            margin-top: 0px auto;  
+
+                            }
+
+                            /*Comfiguração da página*/
+
+                            .cadinteiro{
+
+                                width: 300px;
+                                margin: 0px auto;
+                                font-weight: bold;
+                                margin-bottom: 10px;
+
+
+                            }
+
+                            .cadinteiro input{
+
+                                    margin: 5px auto;
+                                    width: 100%;
+                                    padding: 5px 0;
+
+
+                            }
+
+                            .cadinteiro button{
+
+                                    width: 30%;
+                                    margin:  0 10%;
+                                    background-color: rgb(114, 161, 202);
+                                    font-weight: bold;
+                                    font-size: 16px;
+
+                            }
+
+                            label{
+
+                                float: left;
+                            }
+
+                            h2{
+
+                                text-align: center;
+                                margin-top: 0px;
+                                margin-bottom: 10px;
+                                font-size: 50px;
+
+
+                            }
+                
+                </style>
+                
+               </head>
+                <body>
+                  <section>
+
+        <h2>Ler 3 números inteiros positivo exibir a soma dos números que são divisiveis por 5.</h2>
+        <font face="arial">
+            <form name="frmnumint" action="#" method="get" onsubmit="return validaProc()">
+            <fieldset class="cadinteiro">
+                <legend>Entrada de dados</legend>
+                <br>
+
+                <button type="submit"> Enviar</button>
+
+
+            </fieldset>
+
+
+
+            </form>
+        </font>
+
+    </section>
+
+                
+                <script type="text/javascript">
+                                      
+                 function validaProc(){
+
+                let i = 1;
+                let soma = 0;
+                let numero;
+                while (i <= 3) {
+                    
+                    numero = parseInt(prompt("Digite um número: "));
+                    console.log("O número informado é " + numero);
+                if (numero > 0) {
+                    // numeropositivo = numeropositivo + 1;
+                        if (numero%5 == 0){
+
+
+            console.log("O número " + numero + " é positivo. e divisivel por 5");
+
+            soma = soma + numero;
+
+        }
+
+                
+                
+
+            }
+            i= i + 1;
+
+
+        }
+        console.log("A soma dos números divisiveis por é " +soma);
+        }                   
+                </script>
+                
+                </body>
+                </html>
+               </body>
+               </html>
+
+            </textarea
+        ><!--Finalizando o componente textarea-->
+        <br /><br />
+        <input
+          type="button"
+          value="Testar sua página"
+          onclick="document.write(fonte.value);"
+        />
+      </form>
+    </center>
+  </body>
+  <!--Finalizando a tag body da página principal-->
+</html>
+<!--Fechando a tag principal da página-->
