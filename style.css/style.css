@@ -473,3 +473,9 @@ body {
 .nav-links a {
   color: #ccd595;
 }
+
+footer {
+  background-color: #331f19;
+  padding: 2rem;
+  text-align: center;
+}
